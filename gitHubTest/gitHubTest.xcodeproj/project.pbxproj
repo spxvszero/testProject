@@ -14,6 +14,7 @@
 		8501ACEA1BD8F90A00E1B936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8501ACE91BD8F90A00E1B936 /* Assets.xcassets */; };
 		8501ACED1BD8F90A00E1B936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8501ACEB1BD8F90A00E1B936 /* LaunchScreen.storyboard */; };
 		8501ACF51BD8FB4B00E1B936 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8501ACF41BD8FB4B00E1B936 /* icon.jpg */; settings = {ASSET_TAGS = (); }; };
+		8501ACF81BD9014E00E1B936 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8501ACF71BD9014E00E1B936 /* Car.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		8501ACEC1BD8F90A00E1B936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8501ACEE1BD8F90A00E1B936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8501ACF41BD8FB4B00E1B936 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		8501ACF61BD9014E00E1B936 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		8501ACF71BD9014E00E1B936 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				8501ACE11BD8F90A00E1B936 /* AppDelegate.m */,
 				8501ACE31BD8F90A00E1B936 /* ViewController.h */,
 				8501ACE41BD8F90A00E1B936 /* ViewController.m */,
+				8501ACF61BD9014E00E1B936 /* Car.h */,
+				8501ACF71BD9014E00E1B936 /* Car.m */,
 				8501ACE61BD8F90A00E1B936 /* Main.storyboard */,
 				8501ACE91BD8F90A00E1B936 /* Assets.xcassets */,
 				8501ACEB1BD8F90A00E1B936 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			files = (
 				8501ACE51BD8F90A00E1B936 /* ViewController.m in Sources */,
 				8501ACE21BD8F90A00E1B936 /* AppDelegate.m in Sources */,
+				8501ACF81BD9014E00E1B936 /* Car.m in Sources */,
 				8501ACDF1BD8F90A00E1B936 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +308,7 @@
 				8501ACF31BD8F90A00E1B936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
