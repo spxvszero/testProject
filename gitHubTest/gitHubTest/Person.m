@@ -1,8 +1,8 @@
 
-#include "Person.h"
+#import "Person.h"
 
 
-@implementation Person
+@implementation Person()
 
 + (void)initialize
 {
