@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,13 @@
     
     [self.view addSubview:view];
     
+    Person *person = [[Person alloc] init];
     
+    person.name = @"丽丽";
+    
+    person.age = 10;
+    
+    NSLog(@"yeah,i am %@, %lu years old",person.name,person.age);
     
     NSLog(@"现在是在child的分支么？那么我就创建image咯！");
     
