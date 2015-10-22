@@ -34,7 +34,7 @@
     
     [self.view addSubview:imgView];
     
-    
+    NSLog(@"此时合并了分支");
 }
 
 @end
