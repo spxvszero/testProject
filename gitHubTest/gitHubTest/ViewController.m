@@ -25,6 +25,16 @@
     [self.view addSubview:view];
     
     
+    
+    NSLog(@"现在是在child的分支么？那么我就创建image咯！");
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 200, 150, 150)];
+    
+    imgView.image = [UIImage imageNamed:@"icon.jpg"];
+    
+    [self.view addSubview:imgView];
+    
+    
 }
 
 @end
