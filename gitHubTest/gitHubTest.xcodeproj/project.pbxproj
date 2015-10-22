@@ -15,6 +15,7 @@
 		8501ACED1BD8F90A00E1B936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8501ACEB1BD8F90A00E1B936 /* LaunchScreen.storyboard */; };
 		8501ACF51BD8FB4B00E1B936 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8501ACF41BD8FB4B00E1B936 /* icon.jpg */; settings = {ASSET_TAGS = (); }; };
 		8501ACF81BD9014E00E1B936 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8501ACF71BD9014E00E1B936 /* Car.m */; settings = {ASSET_TAGS = (); }; };
+		8501ACFB1BD901BE00E1B936 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8501ACFA1BD901BE00E1B936 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		8501ACF41BD8FB4B00E1B936 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 		8501ACF61BD9014E00E1B936 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		8501ACF71BD9014E00E1B936 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		8501ACF91BD901BE00E1B936 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8501ACFA1BD901BE00E1B936 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		8501ACDC1BD8F90A00E1B936 /* gitHubTest */ = {
 			isa = PBXGroup;
 			children = (
+				8501ACF91BD901BE00E1B936 /* Person.h */,
+				8501ACFA1BD901BE00E1B936 /* Person.m */,
 				8501ACE01BD8F90A00E1B936 /* AppDelegate.h */,
 				8501ACE11BD8F90A00E1B936 /* AppDelegate.m */,
 				8501ACE31BD8F90A00E1B936 /* ViewController.h */,
@@ -160,6 +165,7 @@
 			files = (
 				8501ACE51BD8F90A00E1B936 /* ViewController.m in Sources */,
 				8501ACE21BD8F90A00E1B936 /* AppDelegate.m in Sources */,
+				8501ACFB1BD901BE00E1B936 /* Person.m in Sources */,
 				8501ACF81BD9014E00E1B936 /* Car.m in Sources */,
 				8501ACDF1BD8F90A00E1B936 /* main.m in Sources */,
 			);
